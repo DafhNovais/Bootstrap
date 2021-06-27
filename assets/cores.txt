@@ -1,0 +1,11 @@
+Bg body:
+#86e37438
+
+Jumb e form:
+rgba(120, 209, 36, 0.164)
+
+Navbar e footer:
+#86E374
+
+&Copy:
+#4D966D

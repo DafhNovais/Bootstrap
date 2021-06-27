@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+}
+a .tm-social{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    
+}
+
+.tm-social:hover {
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+
+.trt {
+    width: 40px;
+    height: 40px;
+    
+}
+.pnt {
+    width: 30px;
+    height: 30px;
+}
+
+.map {
+    width: 580;
+    height: 315;
+}
+.map:hover {
+    width: 600;
+    height: 350;
+}
+
+/**Media Queries - responsividade**/
+@media screen and (max-width: 620px) {
+    .video-fluid {
+      max-width:315px;
+      margin: auto;
+    }
+  }
