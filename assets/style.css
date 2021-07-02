@@ -1,3 +1,21 @@
+.nomul {
+    text-shadow: 2px 2px 20px black;
+}
+
+
+.bg-color {
+    background-color: #ececec;
+}
+
+
+.navFooter-color {
+    background-color: #2e302e;
+}
+
+.copy-color {
+    background-color: #1d1f1d;
+}
+
 a{
     text-decoration: none;
 }
@@ -38,3 +56,34 @@ a .tm-social{
       margin: auto;
     }
   }
+
+::-webkit-scrollbar {
+width:10px;
+height: 10px;
+}
+    
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+::-webkit-scrollbar-track {
+background:#333;
+}
+    
+/* aqui é a alça da barra, que demonstra a altura que você está na página
+estou colocando uma cor azul clara nela*/
+::-webkit-scrollbar-thumb {
+background: rgb(110, 138, 85);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#voltarTopo {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    float: right;
+    z-index: 9999;
+}
